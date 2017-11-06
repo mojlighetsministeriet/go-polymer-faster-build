@@ -16,4 +16,3 @@ go get -t -v github.com/jinzhu/gorm/dialects/postgres
 go get -t -v github.com/labstack/echo
 go get -t -v github.com/labstack/gommon/log
 go get -t -v github.com/satori/go.uuid
-go get -t -v github.com/mojlighetsministeriet/utils
