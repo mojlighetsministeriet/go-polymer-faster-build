@@ -1,6 +1,8 @@
 FROM golang:alpine
 
-RUN apk --update add git nodejs-current-npm yarn
+RUN sed -i -e 's/v3\.6/edge/g' /etc/apk/repositories
+RUN apk update --update-cache
+RUN apk add git nodejs-current yarn
 
 COPY goget.sh /
 RUN /goget.sh
