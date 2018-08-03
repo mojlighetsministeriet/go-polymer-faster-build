@@ -15,7 +15,10 @@ go get -t -v github.com/jinzhu/gorm/dialects/mysql
 go get -t -v github.com/jinzhu/gorm/dialects/postgres
 go get -t -v github.com/labstack/echo
 go get -t -v github.com/labstack/echo-contrib
+go get -t -v github.com/labstack/echo/middleware
 go get -t -v github.com/labstack/gommon/log
+go get -t -v github.com/labstack/gommon/random
+go get -t -v github.com/labstack/gommon/bytes
 go get -t -v github.com/satori/go.uuid
 go get -t -v github.com/satori/go.uuid
 go get -t -v github.com/gorilla/context
