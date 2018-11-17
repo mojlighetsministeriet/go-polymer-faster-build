@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-RUN sed -i -e 's/v3\.6/edge/g' /etc/apk/repositories
+RUN sed -i -e 's/v3\.8/edge/g' /etc/apk/repositories
 RUN apk update --update-cache
 RUN apk add git nodejs-current yarn
 
